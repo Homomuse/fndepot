@@ -1,0 +1,49 @@
+{
+  "schema_version": "2",
+  "source_info": {
+    "name": "Homomuse 官方源",
+    "author": "Homomuse",
+    "homepage": "https://homomuse.com",
+    "description": "Homomuse 官方 fnOS 应用源。"
+  },
+  "apps": {
+    "momo": {
+      "display_name": "Momo · 回忆宝箱节点",
+      "desc": "Homomuse 只做一件事——分享：把手机里的照片和视频生成一个链接，家人点开微信卡片就能看原图原视频。不是网盘，不做多端同步；文件在离开手机前已上锁（本地加密），存在你自己的 NAS 上。<br>Momo 是替你守宝箱的那只小狗：把它养进 NAS（飞牛 fnOS），7×24 醒着在岗。装好打开管理页，跟着首启向导走——留个位置备注，再用同一个微信账号打开「回忆宝箱」服务号，就能开始第一次分享；想让家人也用 Homomuse 分享时，在主页签一张爪印帖。<br>每个宝箱有两把爪印锁，两只小狗同时按上才打得开。链接默认 7 天有效、限 100 次查看，到期或用完自动失效——适合临时、一次性的私密分享。<br>灰度提示：x86_64 安装包尚未完成 x86 fnOS 真机验证，请先在测试环境安装，不要直接承载主力数据；升级前备份节点数据。",
+      "platform": ["arm", "x86"],
+      "categories": ["影音娱乐", "系统工具"],
+      "icon_url": "https://raw.githubusercontent.com/Homomuse/fndepot/main/assets/icon_256.png",
+      "preview_urls": [
+        "https://raw.githubusercontent.com/Homomuse/fndepot/main/assets/guide-1.png",
+        "https://raw.githubusercontent.com/Homomuse/fndepot/main/assets/guide-2.png",
+        "https://raw.githubusercontent.com/Homomuse/fndepot/main/assets/guide-3.png",
+        "https://raw.githubusercontent.com/Homomuse/fndepot/main/assets/guide-4.png"
+      ],
+      "readme_url": "https://homomuse.com/download",
+      "maintainer": "Homomuse",
+      "maintainer_url": "https://homomuse.com",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": true,
+      "service_port": "",
+      "releases": {
+        "0.1.7": {
+          "changelog": "节点身份持久化——Momo 的身份落盘保存，重启不再身份漂移（老部署首次启动为一次性身份轮换，地址自动重报，无需用户操作）；同账号双开时本节点自动让位，不再互踢；管理页新增横幅提示与手动重连入口。",
+          "updated_at": "2026-11-12T00:00:00+08:00",
+          "packages": {
+            "arm": {
+              "download_url": "https://cdn.artistfeynman.cn/nas/0.1.7/momo_0.1.7_arm.fpk",
+              "sha256": "962a0c0d8826013a202abdb506e6c526511b691fb01e0b008cab98d20ceaa9ae",
+              "size": 255065911
+            },
+            "x86": {
+              "download_url": "https://cdn.artistfeynman.cn/nas/0.1.7/momo_0.1.7_x86.fpk",
+              "sha256": "c90fec3e65ecd8ad4c1c073581fa7153b138b57b5ea33e908a63abdb9b27ec23",
+              "size": 270941141
+            }
+          }
+        }
+      }
+    }
+  }
+}
