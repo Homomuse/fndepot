@@ -19,7 +19,7 @@
         "https://raw.githubusercontent.com/Homomuse/fndepot/main/assets/guide-3.png",
         "https://raw.githubusercontent.com/Homomuse/fndepot/main/assets/guide-4.png"
       ],
-      "readme_url": "https://homomuse.com/download",
+      "readme_url": "https://raw.githubusercontent.com/Homomuse/fndepot/main/README.md",
       "maintainer": "Homomuse",
       "maintainer_url": "https://homomuse.com",
       "run_as": "package",
