@@ -8,7 +8,7 @@ Homomuse 只做一件事——分享：把手机里的照片和视频生成一�
 https://github.com/Homomuse/fndepot
 ```
 
-即可看到并安装 **Momo · 回忆宝箱节点**。官网：https://homomuse.com/download
+即可看到并安装 **Momo · 回忆宝箱节点**。官网：https://homomuse.com
 
 ## 源内应用
 
